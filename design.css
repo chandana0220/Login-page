@@ -1,0 +1,52 @@
+/* styles.css */
+body {
+    background-color: blueviolet;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+h2, h3 {
+    color: white;
+}
+
+.round-border-input {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.navbar {
+    width: 52%;
+    background-color: blueviolet;
+    left: 225px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.navbar li {
+    color: white;;
+    list-style: none;
+    margin-right: -250px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: red;
+}
+.col-sm-4{
+    bottom:-70px;
+}
